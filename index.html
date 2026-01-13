@@ -169,6 +169,22 @@
             nav ul { display: none; }
             .container { width: 90%; }
         }
+
+        /* Căn giữa khung chứa ảnh */
+        .ceo-image-container {
+            text-align: center;
+            margin: 20px 0; /* Khoảng cách trên và dưới ảnh */
+        }
+        
+        /* Định dạng hình ảnh */
+        .ceo-portrait {
+            width: 250px;         /* Anh có thể điều chỉnh kích thước này */
+            height: 250px;
+            object-fit: cover;    /* Giúp ảnh không bị méo khi chỉnh size */
+            border-radius: 50%;   /* Tạo ảnh hình tròn (nếu muốn) */
+            border: 5px solid #007bff; /* Thêm viền xanh cho chuyên nghiệp */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Tạo hiệu ứng đổ bóng */
+        }
     </style>
 </head>
 <body>
@@ -239,5 +255,6 @@
 
 </body>
 </html>
+
 
 
